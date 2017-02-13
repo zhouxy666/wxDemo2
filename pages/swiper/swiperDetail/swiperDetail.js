@@ -83,17 +83,11 @@ Page({
   onMusicTap:function(){
       var isPlaying = this.data.isPlaying;
       if(isPlaying){
-          console.log('初始状态为'+isPlaying);
-          console.log(this.audioCtx);
           this.audioCtx.pause();
       }else{
-          console.log('初始状态为'+isPlaying);
-          console.log(this.audioCtx);
           this.audioCtx.play();
-          
       };
       this.setData({isPlaying:!isPlaying});
-      console.log('当前的状态'+this.data.isPlaying);
   },
   onRequertTest:function(e){
     var that = this;

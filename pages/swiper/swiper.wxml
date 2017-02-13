@@ -1,0 +1,10 @@
+<!--pages/swiper/swiper.wxml-->
+<import src="/template/swiperTemplate/swiperTemplate.wxml"/>
+<view class="post-container">
+    <!-- 每一篇文章-->
+    <block wx:for="{{articleData}}" wx:for-index="index" wx:for-item="item">
+        <view catchtap="toDetail" data-id="{{item.postId}}">
+            <template is="article" data="{{item}}"/>
+        </view>
+    </block>
+</view>

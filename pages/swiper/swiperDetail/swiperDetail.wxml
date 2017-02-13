@@ -1,0 +1,29 @@
+<!--pages/swiper/swiperDetail/swiperDetail.wxml-->
+<view class="content">
+    <view class="title">
+        <text>{{postData.title}}</text>
+    </view>
+    <view class="author">
+        <text>2017-01-24</text>
+        <text>zhouxy</text>
+    </view>
+    <view class="banner">
+        <image class="baner-bgimg {{isPlaying?'blur':''}}" src="{{isPlaying?postData.musicdata.poster:postData.articleimg}}" mode="aspectFit"></image>
+        <image class="banner-play {{isPlaying?'rotate':''}}" src="{{isPlaying?'/images/icon/paused.png':'/images/icon/play.png'}}" catchtap="onMusicTap"></image>
+    </view>
+    <view class="article">
+        <text>{{postData.articlecontent}}</text>
+    </view>
+    <view class="music">
+        <audio id="myAudio" src="{{postData.musicdata.src}}" author="{{postData.musicdata.author}}" poster="{{postData.musicdata.poster}}" name="{{postData.musicdata.name}}" controls></audio>
+    </view>
+    <view class="like">
+        <text>阅读原文</text>
+        <text class="read">阅读</text>
+        <text>{{postData.commentnum}}</text>
+        <image class="like-icon" src="/images/like.png"></image>
+        <text class="like-num">{{postData.likenum}}</text>
+        <image bindtap="onShare" class="action share" src="/images/icon/share.png" ></image>
+        <image class="action collection" src="{{isCollected?'/images/icon/collectioned.png':'/images/icon/collection.png'}}" bindtap="onCollect"></image>
+    </view>
+</view>

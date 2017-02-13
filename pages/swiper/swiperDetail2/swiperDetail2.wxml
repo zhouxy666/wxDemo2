@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="header">
+        <image src="/images/bg1.jpg"></image>
+    </view>
+    <view class="author-data">
+        <image class="avater" src="/images/avatarimg/head02.jpg"></image>
+        <text class="author">zhouxy</text>
+        <text class="txt">发表于</text>
+        <text class="data">3天前</text>
+    </view>
+    <view class="title">我是高圆圆</view>
+    <view class="content">高圆圆，1979年10月5日出生于北京市，中国内地影视女演员、模特。1996年，高圆圆被广告公司发掘，随后拍摄大量的商业广告，在广告圈中崭露头；1997年主演个人的大银幕处女作《爱情麻辣烫》，从此开始了她的演艺生涯；2003年，凭借古装武侠爱情剧《倚天屠龙记》受到广泛关注；2005年，因在剧情片《青红》中饰演女主人公青红入围戛纳电影节最佳女主角奖；2006年凭借喜剧动作片《宝贝计划》入围百花奖最佳女演员提名；2007年因在爱情电影《男才女貌》中饰演聋哑幼师秦小悠获得第11届电影表演艺术</view>
+    <view class="tool">
+        <image src="/images/like2.png"></image>
+        <image src="/images/comment.png"></image>
+    </view>
+</view>

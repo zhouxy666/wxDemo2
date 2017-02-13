@@ -1,0 +1,38 @@
+{
+    "pages": [
+      "pages/swiper/swiper",
+      "pages/index/index",
+      "pages/login/login",
+      "pages/swiper/swiperDetail/swiperDetail",
+      "pages/swiper/swiperDetail2/swiperDetail2"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#ffffff",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "小程序",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+    },
+    "tabBar": {
+      "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath":"images/avatarimg/head06.jpg",
+        "selectedIconPath":"images/avatarimg/head06.jpg",
+        "text": "首页"
+      },{
+        "pagePath": "pages/login/login",
+        "iconPath":"images/avatarimg/head05.jpg",
+        "selectedIconPath":"images/avatarimg/head05.jpg",      
+        "text": "登录"
+      },{
+        "pagePath": "pages/swiper/swiper",
+        "iconPath":"images/avatarimg/head04.jpg",
+        "selectedIconPath":"images/avatarimg/head04.jpg",
+        "text": "星录"
+      }],
+      "selectedColor":"#f90",
+      "borderStyle": "#ccc",
+      "backgroundColor": "#f8f8f8"
+    }   
+}

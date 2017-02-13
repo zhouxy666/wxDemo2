@@ -1,0 +1,25 @@
+<template name="article">
+    <view class="content">
+        <view class="content-head">
+            <image class="avatar" src="{{item.avatar}}"></image>
+            <text class="author">{{item.author}}</text>
+            <text class="postdata">{{item.postdata}}</text>
+        </view>
+        <view class="content-body">
+            <text class="content-body-title">{{item.title}}</text>
+            <image src="{{item.articleimg}}" mode="aspectFit"></image>
+            <view class="content-body-article">
+                <text>{{item.articlecontent}}</text>
+            </view>
+        </view>
+        <view class="content-line"></view>
+        <view class="content-like">
+            <image class="content-like-image" src="/images/like2.png"></image>
+            <text class="content-like-num">{{item.likenum}}</text>
+            <image class="content-like-image" src="/images/comment2.png"></image>
+            <text class="content-like-num">{{item.commentnum}}</text>
+            <!--<image class="content-like-image" src="/images/view.png"></image>
+            <text class="content-like-num">77</text>-->
+        </view>
+    </view>
+</template>

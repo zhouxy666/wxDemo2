@@ -1,0 +1,91 @@
+/* pages/swiper/swiperDetail/swiperDetail.wxss */
+.content{
+    padding:40rpx 40rpx 50rpx 40rpx;
+    font-family: '微软雅黑';
+}
+.content view{
+    padding: 5rpx 0 5rpx 0;
+}
+.title{
+    font-weight: bold;
+}
+.author{
+    font-size:14px;
+    margin:10rpx 0 10rpx 0;
+}
+
+.author text{
+    margin-right:20rpx;
+    color: #666;
+}
+.banner{
+    position: relative;
+}
+.banner .baner-bgimg{
+    width:100%;
+}
+.banner .blur{
+    filter: blur(5rpx);
+}
+.banner .banner-play{
+    width:60rpx;
+    height:60rpx;
+    position: absolute;
+    left:314rpx;
+    top:210rpx;
+} 
+@keyframes auto{
+    0%{
+        transform:rotate(0deg) scale(.8);
+    }
+    50%{
+        transform: rotate(180deg) scale(1.1);
+    }
+    100%{
+        transform: rotate(360deg) scale(.8);
+    }
+}
+.banner .rotate{
+    animation: auto 1.5s linear infinite;
+}
+.article{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:14px;
+    line-height:24px;
+    text-align: justify;
+    white-space: pre-wrap;
+    text-indent: 2em;
+    color:#666;
+}
+.like{
+    margin-top:30rpx;
+    font-size:12px;
+}
+.like text{
+    margin-right:20rpx;
+    vertical-align: middle;
+}
+.like .read{
+    margin-right:5rpx;
+}
+.like image{
+    width:32rpx;
+    height:32rpx;
+    vertical-align: middle;
+    margin-right:10rpx;
+}
+.like .like-complain{
+    float:right;
+}
+.like .action{
+    width:40rpx;
+    height:40rpx;
+    float:right;
+    margin-right:30rpx;
+}
+.music{
+    margin-top:20rpx;
+}
+.music audio{
+    width:100%;
+}

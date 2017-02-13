@@ -1,0 +1,30 @@
+<view class="container">
+    <view class="head">
+        <text>适美社区</text>
+        <icon type="success"/>
+    </view>
+    <view class="nav">
+        <text hover-class="text-hover">首页</text>
+        <text hover-class="text-hover">0-1岁</text>
+        <text hover-class="text-hover">2-6岁</text>
+        <text hover-class="text-hover">7-12岁</text>
+    </view>
+    <view class="banner">
+        <swiper vertical circular="true" duration="1000" interval="2000" autoplay="true" indicator-dots="true">
+            <block wx:for="{{imgUrls}}" wx:for-index="index" wx:for-item="item">
+                <swiper-item>
+                    <image src="{{item}}"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+    <view class="itemsGroup" scroll-x="true">
+        <view class="items">{{info[0]}}</view>
+        <view class="items">{{info[1]}}</view>
+        <view class="items">{{info[2]}}</view>
+        <view class="items">{{info[3]}}</view>
+    </view>
+    <scroll-view class="content" scroll-y="true">
+        <text>scroll-y</text>
+    </scroll-view>
+</view>

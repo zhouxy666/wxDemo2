@@ -1,0 +1,50 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    padding:24rpx;
+    align-items: flex-start;
+}
+.header{
+    width:100%;
+}
+.header image{
+    width:100%;
+}
+.author-data{
+    display: flex;
+    flex-direction: row;
+    margin-top:20rpx;
+}
+.author-data text{
+    margin-left:20rpx;
+    vertical-align: middle;
+    color:#999;
+    font-size:14px;
+    line-height:60rpx;
+}
+.author-data .avater{
+    width:60rpx;
+    height:60rpx;
+    border-radius:50%;
+    
+}
+.author-data .author{
+    font-size:14px;
+    color:#666;
+}
+.title{
+    font-size:20px;
+    color:#333;
+    font-weight: bold;
+}
+.content{
+    font-size:14px;
+    color:#666;
+    margin-top:20rpx;
+}
+.tool image{
+    width:50rpx;
+    height:50rpx;
+    margin-right:30rpx;
+    float:right;
+}

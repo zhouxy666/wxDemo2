@@ -1,0 +1,11 @@
+/* pages/swiper/swiper.wxss */
+@import '/template/swiperTemplate/swiperTemplate.wxss';
+.post-container{
+    background:#f8f8f8;
+    padding: 20rpx;
+}
+
+.test{
+    height:200rpx;
+    background:#ccc;
+}

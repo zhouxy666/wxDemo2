@@ -1,0 +1,10 @@
+<!--login页面的骨架-->
+<view class="container">
+    <view class="user-info">
+        <image src="/images/avatarimg/head01.jpg" class="avater"></image>
+        <text>hello world</text>
+    </view>
+    <view class="title" bindtap="onStart">
+        <text>开启小程序</text>
+    </view>   
+</view>
